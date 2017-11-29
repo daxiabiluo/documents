@@ -2,7 +2,7 @@
 
 在浏览器中键入"xxx.xxx.xxx.xxx"，按“Enter”键，出现如下图所示的登录界面，输入正确的“账号”、“密码”，单击“登录”即可进入主界面。
 
-![](/assets/%29%F`D[9BO9{XXE8D22PTN5E.png)![](/assets/%28%28%295TC`T8JVB{DSM3UQ0_%D.png)
+![](/assets/%29%F`D[9BO9{XXE8D22PTN5E.png)![](/assets/%28%28%295TC`T8JVB{DSM3UQ0_%D.png)![](/assets/%28%28%295TC`T8JVB{DSM3UQ0_%D.png)
 
 #### 说明:
 
@@ -10,7 +10,7 @@
 
 ##### 2."xxx.xxx.xxx.xxx"为网关网口IP地址，例如LM gateway 414 的ETH1默认IP地址为192.168.1.230，ETH2默认IP地址为192.168.0.230。
 
-##### 3.默认账号和密码都为 admin
+##### 3.默认账号和密码都为 admin。
 
 ##### 4.首次登录后。建议尽快修改用户密码，以保障账户安全。
 
