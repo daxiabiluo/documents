@@ -2,7 +2,7 @@
 
 在浏览器中键入"xxx.xxx.xxx.xxx"，按“Enter”键，出现如下图所示的登录界面，输入正确的“账号”、“密码”，单击“登录”即可进入主界面。
 
-![](/assets/%29%F`D[9BO9{XXE8D22PTN5E.png)![](/assets/%28%28%295TC`T8JVB{DSM3UQ0_%D.png)![](/assets/%28%28%295TC`T8JVB{DSM3UQ0_%D.png)
+
 
 #### 说明:
 
