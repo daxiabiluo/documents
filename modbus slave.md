@@ -1,6 +1,6 @@
 # Modbus slave界面操作
 
-modbus\_slave协议是一个上传协议，通过id和采集协议中的id进行绑定，达到采集-上传\(更新modbus地址数据\)的需求。
+modbus\_slave协议是一个上传协议，通过id和采集协议中的id进行绑定，达到采集-上传\(更新modbus地址数据\)的需求。![](/assets/M4P3@93U[58`P%29MAFOO_830.png)
 
 ### 1.配置modbus slave通讯类型
 
