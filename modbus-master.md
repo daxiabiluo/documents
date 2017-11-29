@@ -1,4 +1,4 @@
-# Modbus主界面操作
+# Modbus master界面操作
 
 modbus\_master协议是一个采集协议，通过ID和上传协议中的ID进行绑定，达到采集 - 上传的需求。
 
