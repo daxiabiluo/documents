@@ -10,7 +10,7 @@
 
 ## GC 安装/卸载
 
-GC配置软件可在罗米官网http://www.lmgateway.com/免费下载，可稳定运行在Windows XP/ Windows  7/Windows 10系统下。
+GC配置软件可在罗米官网http://www.lmgateway.com/ 免费下载，可稳定运行在Windows XP/ Windows  7/Windows 10系统下。
 
 **安装**
 
