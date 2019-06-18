@@ -29,6 +29,8 @@
 - [第六章 IoT](ch6/README.md)
   - [6.1 Mqtt Client](ch6/ch6-1.md)
   - [6.2 IoTDDC](ch6/ch6-2.md)
+  - [6.3 Alink](ch6/ch6-3.md)
+  - [6.4 Tlink](ch6/ch6-4.md)
   
 - [第七章 任务计划](ch7/README.md)
 - [第八章 报警与事件](ch8/README.md)
