@@ -57,7 +57,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../ch3/" />
+    <link rel="next" href="ch2-6.html" />
     
     
     <link rel="prev" href="ch2-4.html" />
@@ -245,6 +245,19 @@
             
                     
                     2.5 HTTP接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="ch2-6.html">
+            
+                <a href="ch2-6.html">
+            
+                    
+                    2.6 WEB服务器
             
                 </a>
             
@@ -717,7 +730,7 @@
                                 
                                 <h1 id="25-http&#x63A5;&#x53E3;">2.5 HTTP&#x63A5;&#x53E3;</h1>
 <p>&#x7F51;&#x5173;&#x5F00;&#x653E;&#x4EE5;&#x4E0B;HTTP&#x63A5;&#x53E3;&#xFF0C;&#x5E76;&#x4E14;&#x7ED9;&#x51FA;&#x8303;&#x4F8B;&#xFF0C;&#x5177;&#x4F53;&#x8303;&#x4F8B;&#x5728;GC&#x5B89;&#x88C5;&#x76EE;&#x5F55;&#x7684;Web Demo&#x6587;&#x4EF6;&#x5939;&#x4E2D;&#x3002;</p>
-<h3 id="251-&#x5B9E;&#x65F6;&#x6570;&#x636E;">2.5.1 &#x5B9E;&#x65F6;&#x6570;&#x636E;</h3>
+<h2 id="251-&#x5B9E;&#x65F6;&#x6570;&#x636E;">2.5.1 &#x5B9E;&#x65F6;&#x6570;&#x636E;</h2>
 <h5 id="&#x63A5;&#x53E3;&#x529F;&#x80FD;&#xFF1A;">&#x63A5;&#x53E3;&#x529F;&#x80FD;&#xFF1A;</h5>
 <blockquote>
 <p>&#x83B7;&#x53D6;&#x6B64;&#x65F6;&#x7F51;&#x5173;&#x4E2D;&#x6240;&#x6709;&#x6570;&#x636E;&#x70B9;&#x7684;&#x5B9E;&#x65F6;&#x6570;&#x636E;</p>
@@ -788,40 +801,39 @@
 </tbody>
 </table>
 <h5 id="&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#x793A;&#x4F8B;">&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#x793A;&#x4F8B;:</h5>
-<blockquote>
-<p>{
-&quot;deviceCode&quot;: &quot;ALL&quot;,
-&quot;val&quot;: [
-   {
-       &quot;id&quot;: &quot;system.mqtt&quot;,
-       &quot;status&quot;: &quot;Good&quot;,
-       &quot;timestamp&quot;: 1558312746,
-       &quot;val&quot;: &quot;1&quot;
-   },
-   {
-       &quot;id&quot;: &quot;system.TIME_MINUTE&quot;,
-       &quot;status&quot;: &quot;Good&quot;,
-       &quot;timestamp&quot;: 1558312800,
-       &quot;val&quot;: &quot;40&quot;
-   },
-   {
-       &quot;id&quot;: &quot;system.TIME_WDAY&quot;,
-       &quot;status&quot;: &quot;Good&quot;,
-       &quot;timestamp&quot;: 1558312748,
-       &quot;val&quot;: &quot;1&quot;
-   },
-   {
-       &quot;id&quot;: &quot;Device1.tag0001&quot;,
-       &quot;status&quot;: &quot;Error&quot;,
-       &quot;timestamp&quot;: 1558312858,
-       &quot;val&quot;: &quot;0&quot;
-   }
-]
-}</p>
-</blockquote>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;deviceCode&quot;</span>:<span class="hljs-string">&quot;ALL&quot;</span>,
+    <span class="hljs-string">&quot;val&quot;</span>:[
+        {
+            <span class="hljs-string">&quot;id&quot;</span>:<span class="hljs-string">&quot;system.mqtt&quot;</span>,
+            <span class="hljs-string">&quot;status&quot;</span>:<span class="hljs-string">&quot;Good&quot;</span>,
+            <span class="hljs-string">&quot;timestamp&quot;</span>:<span class="hljs-number">1558312746</span>,
+            <span class="hljs-string">&quot;val&quot;</span>:<span class="hljs-string">&quot;1&quot;</span>
+        },
+        {
+            <span class="hljs-string">&quot;id&quot;</span>:<span class="hljs-string">&quot;system.TIME_MINUTE&quot;</span>,
+            <span class="hljs-string">&quot;status&quot;</span>:<span class="hljs-string">&quot;Good&quot;</span>,
+            <span class="hljs-string">&quot;timestamp&quot;</span>:<span class="hljs-number">1558312800</span>,
+            <span class="hljs-string">&quot;val&quot;</span>:<span class="hljs-string">&quot;40&quot;</span>
+        },
+        {
+            <span class="hljs-string">&quot;id&quot;</span>:<span class="hljs-string">&quot;system.TIME_WDAY&quot;</span>,
+            <span class="hljs-string">&quot;status&quot;</span>:<span class="hljs-string">&quot;Good&quot;</span>,
+            <span class="hljs-string">&quot;timestamp&quot;</span>:<span class="hljs-number">1558312748</span>,
+            <span class="hljs-string">&quot;val&quot;</span>:<span class="hljs-string">&quot;1&quot;</span>
+        },
+        {
+            <span class="hljs-string">&quot;id&quot;</span>:<span class="hljs-string">&quot;Device1.tag0001&quot;</span>,
+            <span class="hljs-string">&quot;status&quot;</span>:<span class="hljs-string">&quot;Error&quot;</span>,
+            <span class="hljs-string">&quot;timestamp&quot;</span>:<span class="hljs-number">1558312858</span>,
+            <span class="hljs-string">&quot;val&quot;</span>:<span class="hljs-string">&quot;0&quot;</span>
+        }
+    ]
+}
+</code></pre>
 <h5 id="postman&#x622A;&#x56FE;&#xFF1A;">Postman&#x622A;&#x56FE;&#xFF1A;</h5>
 <p><img src="assets/real.png" alt="real"></p>
-<h3 id="252-&#x6570;&#x636E;&#x8BBE;&#x5B9A;">2.5.2 &#x6570;&#x636E;&#x8BBE;&#x5B9A;</h3>
+<h2 id="252-&#x6570;&#x636E;&#x8BBE;&#x5B9A;">2.5.2 &#x6570;&#x636E;&#x8BBE;&#x5B9A;</h2>
 <h5 id="&#x63A5;&#x53E3;&#x529F;&#x80FD;&#xFF1A;">&#x63A5;&#x53E3;&#x529F;&#x80FD;&#xFF1A;</h5>
 <blockquote>
 <p>&#x8FDB;&#x884C;&#x5355;&#x4E2A;&#x91C7;&#x96C6;&#x70B9;&#x7684;&#x5199;&#x64CD;&#x4F5C;</p>
@@ -864,7 +876,10 @@
 <p>json</p>
 </blockquote>
 <h5 id="&#x8FD4;&#x56DE;&#x7ED3;&#x679C;">&#x8FD4;&#x56DE;&#x7ED3;&#x679C;:</h5>
-<p>{&quot;result&quot;: true}</p>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;result&quot;</span>:<span class="hljs-literal">true</span>
+}
+</code></pre>
 <p>HTTP&#x901A;&#x8BAF;&#x6210;&#x529F;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#x90FD;&#x4E3A;true&#xFF0C;&#x6307;&#x660E;&#x7F51;&#x5173;&#x63A5;&#x6536;&#x5230;&#x53D1;&#x9001;&#x7684;&#x5199;&#x64CD;&#x4F5C;&#x7684;&#x6570;&#x636E;&#x3002;</p>
 <h5 id="postman&#x622A;&#x56FE;&#xFF1A;">Postman&#x622A;&#x56FE;&#xFF1A;</h5>
 <p><img src="assets/write.png" alt="write"></p>
@@ -900,7 +915,7 @@
                 </a>
                 
                 
-                <a href="../ch3/" class="navigation navigation-next " aria-label="Next page: 第三章 数据采集配置">
+                <a href="ch2-6.html" class="navigation navigation-next " aria-label="Next page: 2.6 WEB服务器">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -911,7 +926,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"2.5 HTTP接口","level":"1.4.5","depth":2,"next":{"title":"第三章 数据采集配置","level":"1.5","depth":1,"path":"ch3/README.md","ref":"ch3/README.md","articles":[{"title":"3.1 通道配置及协议选择","level":"1.5.1","depth":2,"path":"ch3/ch3-1.md","ref":"ch3/ch3-1.md","articles":[]},{"title":"3.2 设备及点表编辑","level":"1.5.2","depth":2,"path":"ch3/ch3-2.md","ref":"ch3/ch3-2.md","articles":[]},{"title":"3.3 用户点","level":"1.5.3","depth":2,"path":"ch3/ch3-3.md","ref":"ch3/ch3-3.md","articles":[]},{"title":"3.4 计算点","level":"1.5.4","depth":2,"path":"ch3/ch3-4.md","ref":"ch3/ch3-4.md","articles":[]},{"title":"3.5 系统点","level":"1.5.5","depth":2,"path":"ch3/ch3-5.md","ref":"ch3/ch3-5.md","articles":[]}]},"previous":{"title":"2.4 调试模式","level":"1.4.4","depth":2,"path":"ch2/ch2-4.md","ref":"ch2/ch2-4.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ch2/ch2-5.md","mtime":"2019-05-20T03:01:46.903Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-18T06:55:13.155Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"2.5 HTTP接口","level":"1.4.5","depth":2,"next":{"title":"2.6 WEB服务器","level":"1.4.6","depth":2,"path":"ch2/ch2-6.md","ref":"ch2/ch2-6.md","articles":[]},"previous":{"title":"2.4 调试模式","level":"1.4.4","depth":2,"path":"ch2/ch2-4.md","ref":"ch2/ch2-4.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ch2/ch2-5.md","mtime":"2019-07-16T07:03:45.358Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-30T06:47:47.071Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
