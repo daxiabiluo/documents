@@ -32,6 +32,7 @@
   - [6.2 IoTDDC](ch6/ch6-2.md)
   - [6.3 Alink](ch6/ch6-3.md)
   - [6.4 Tlink](ch6/ch6-4.md)
+  - [6.5 MQTT远程配置](ch6/ch6-5.md)
 - [第七章 任务计划](ch7/README.md)
 - [第八章 报警与事件](ch8/README.md)
   - [8.1 设置报警条件](ch8/ch8-1.md)
@@ -51,5 +52,5 @@
   - [12.6 数据服务](ch12/ch12-6.md)
   - [12.7 应用工程](ch12/ch12-7.md)
 
-
+- [第十三章 附录](ch13/README.md)
 

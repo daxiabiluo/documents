@@ -683,6 +683,116 @@
             
         </li>
     
+        <li class="chapter " data-level="1.14" data-path="../ch12/">
+            
+                <a href="../ch12/">
+            
+                    
+                    第十二章 应用实例
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1" data-path="../ch12/ch12-1.html">
+            
+                <a href="../ch12/ch12-1.html">
+            
+                    
+                    12.1 新建工程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2" data-path="../ch12/ch12-2.html">
+            
+                <a href="../ch12/ch12-2.html">
+            
+                    
+                    12.2 新建网关设备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.3" data-path="../ch12/ch12-3.html">
+            
+                <a href="../ch12/ch12-3.html">
+            
+                    
+                    12.3 新建通道
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.4" data-path="../ch12/ch12-4.html">
+            
+                <a href="../ch12/ch12-4.html">
+            
+                    
+                    12.4 新建设备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.5" data-path="../ch12/ch12-5.html">
+            
+                <a href="../ch12/ch12-5.html">
+            
+                    
+                    12.5 添加数据点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.6" data-path="../ch12/ch12-6.html">
+            
+                <a href="../ch12/ch12-6.html">
+            
+                    
+                    12.6 数据服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.7" data-path="../ch12/ch12-7.html">
+            
+                <a href="../ch12/ch12-7.html">
+            
+                    
+                    12.7 应用工程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
 
     
 
@@ -1548,6 +1658,75 @@
     <span class="hljs-string">&quot;clientid&quot;</span>:<span class="hljs-string">&quot;gw1&quot;</span>
 }
 </code></pre>
+<h2 id="615-&#x81EA;&#x5B9A;&#x4E49;&#x6A21;&#x677F;">6.1.5 &#x81EA;&#x5B9A;&#x4E49;&#x6A21;&#x677F;</h2>
+<p>GC&#x652F;&#x6301;&#x7528;&#x6237;&#x81EA;&#x5B9A;&#x4E49;&#x6A21;&#x677F;&#xFF0C;&#x7528;&#x4E8E;&#x751F;&#x6210;&#x4E0D;&#x540C;&#x683C;&#x5F0F;&#x7684;&#x5B9E;&#x65F6;&#x6570;&#x636E;&#x3001;&#x63A7;&#x5236;&#x4E3B;&#x9898;&#x3001;&#x91CD;&#x542F;&#x4E3B;&#x9898;&#x7B49;&#x8BA2;&#x9605;&#x5230;&#x7684;&#x6570;&#x636E;&#x7684;&#x89E3;&#x6790;&#x3002;&#x5728;&#x6B64;&#x4EE5;&#x5B9E;&#x65F6;&#x6570;&#x636E;&#x4E3B;&#x9898;&#x7684;&#x6A21;&#x677F;&#x4E3A;&#x4F8B;&#xFF0C;&#x4ECB;&#x7ECD;&#x5982;&#x4F55;&#x65B0;&#x5EFA;&#x81EA;&#x5B9A;&#x4E49;&#x6A21;&#x677F;&#x3002;&#x5177;&#x4F53;&#x64CD;&#x4F5C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ol>
+<li><p>Mqtt&#x6A21;&#x677F;&#x5728;&#x914D;&#x7F6E;&#x5DE5;&#x5177;&#x5B89;&#x88C5;&#x76EE;&#x5F55;&#x4E0B;mqtt&#x6587;&#x4EF6;&#x5939;&#x4E0B;&#xFF0C;&#x5176;&#x4E2D;realtime&#x6587;&#x4EF6;&#x5939;&#x4E3A;&#x5B9E;&#x65F6;&#x6570;&#x636E;&#x7684;&#x6A21;&#x677F;&#x76EE;&#x5F55;&#xFF1B;</p>
+</li>
+<li><p>&#x5728;realtime&#x6587;&#x4EF6;&#x5939;&#x4E0B;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;js&#xFF0C;&#x5728;&#x5176;&#x4E2D;&#x8FDB;&#x884C;&#x6A21;&#x677F;&#x7684;&#x7F16;&#x5199;&#xFF1B;</p>
+</li>
+<li><p>&#x53C2;&#x7167;&#x5176;&#x4ED6;&#x6A21;&#x677F;&#xFF0C;&#x5982;default.js&#xFF1A;</p>
+<pre><code class="lang-js">(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">var</span> timestamp = <span class="hljs-built_in">Math</span>.round(<span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>().getTime() / <span class="hljs-number">1000</span>)
+    result = { <span class="hljs-string">&quot;clientid&quot;</span>: base[<span class="hljs-string">&quot;Clientid&quot;</span>], <span class="hljs-string">&quot;time&quot;</span>: timestamp.toString() };
+    data.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">tag</span>) </span>{
+        <span class="hljs-keyword">if</span> (!result[tagExt[tag.Id].deviceCode]) {
+            result[tagExt[tag.Id].deviceCode] = {};
+        }
+        result[tagExt[tag.Id].deviceCode][tagExt[tag.Id].tagCode] = <span class="hljs-built_in">parseFloat</span>(tag[<span class="hljs-string">&quot;Val&quot;</span>])
+    });
+    <span class="hljs-keyword">return</span> <span class="hljs-built_in">JSON</span>.stringify(result);
+})();
+</code></pre>
+<p>&#x5176;&#x4E2D;  (function() {</p>
+<p>&#x200B;            ......</p>
+<p>&#x200B;    })();</p>
+<p>&#x4E3A;&#x4E3B;&#x4F53;&#xFF0C;js&#x9700;&#x8981;&#x5199;&#x5728;&#x5176;&#x4E2D;&#xFF1B;</p>
+<p>data&#x4E3A;&#x7ECF;&#x8FC7;&#x8FC7;&#x6EE4;&#x540E;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x683C;&#x5F0F;&#x4E3A;</p>
+<pre><code class="lang-json">[
+    {
+        <span class="hljs-string">&quot;Id&quot;</span>:<span class="hljs-string">&quot;Device1.tag0001&quot;</span>,
+        <span class="hljs-string">&quot;Status&quot;</span>:<span class="hljs-string">&quot;Good&quot;</span>,
+        <span class="hljs-string">&quot;Timestamp&quot;</span>:<span class="hljs-number">1574926563</span>,
+        <span class="hljs-string">&quot;Val&quot;</span>:<span class="hljs-string">&quot;1.000000&quot;</span>
+    },
+    {
+        <span class="hljs-string">&quot;Id&quot;</span>:<span class="hljs-string">&quot;Device1.tag0002&quot;</span>,
+        <span class="hljs-string">&quot;Status&quot;</span>:<span class="hljs-string">&quot;Good&quot;</span>,
+        <span class="hljs-string">&quot;Timestamp&quot;</span>:<span class="hljs-number">1574926563</span>,
+        <span class="hljs-string">&quot;Val&quot;</span>:<span class="hljs-string">&quot;3.000000&quot;</span>
+    }
+]
+</code></pre>
+<p>base&#x4E3A;mqtt&#x914D;&#x7F6E;&#x586B;&#x5199;&#x7684;&#x53C2;&#x6570;&#xFF1B;</p>
+</li>
+</ol>
+<p>   tagExt&#x4E3A;tag&#x70B9;&#x7684;&#x989D;&#x5916;&#x5C5E;&#x6027;&#xFF0C;&#x5305;&#x62EC;&#x91C7;&#x96C6;&#x9875;&#x9762;&#x4E2D;&#x7684;&#x540D;&#x79F0;&#xFF08;description&#xFF09;&#x3001;tag&#x70B9;&#x6240;&#x5728;&#x7684;&#x8BBE;&#x5907;&#x540D;&#x79F0;&#x3001;&#x8BFB;&#x5199;&#x7C7B;&#x578B;&#x3001;tagID&#xFF0C;&#x8FD8;&#x53EF;&#x4EE5;&#x5305;&#x542B;&#x201C;&#x9AD8;&#x7EA7;&#x53C2;&#x6570;&#x201D;&#x4E2D;&#x586B;&#x5199;&#x7684;&#x6570;&#x636E;&#xFF08;&#x201C;&#x9AD8;&#x7EA7;&#x53C2;&#x6570;&#x201D;&#x9700;&#x8981;&#x586B;&#x5199;json&#x683C;&#x5F0F;&#x7684;&#x6570;&#x636E;&#xFF09;</p>
+<pre><code class="lang-json">   {
+       <span class="hljs-string">&quot;Device1.tag0001&quot;</span>:{
+           <span class="hljs-string">&quot;description&quot;</span>:<span class="hljs-string">&quot;&quot;</span>,
+           <span class="hljs-string">&quot;deviceCode&quot;</span>:<span class="hljs-string">&quot;Device1&quot;</span>,
+           <span class="hljs-string">&quot;objectType&quot;</span>:<span class="hljs-string">&quot;AV&quot;</span>,
+           <span class="hljs-string">&quot;tagCode&quot;</span>:<span class="hljs-string">&quot;tag0001&quot;</span>
+       },
+       <span class="hljs-string">&quot;Device1.tag0002&quot;</span>:{
+           <span class="hljs-string">&quot;description&quot;</span>:<span class="hljs-string">&quot;&quot;</span>,
+           <span class="hljs-string">&quot;deviceCode&quot;</span>:<span class="hljs-string">&quot;Device1&quot;</span>,
+           <span class="hljs-string">&quot;objectType&quot;</span>:<span class="hljs-string">&quot;AV&quot;</span>,
+           <span class="hljs-string">&quot;tagCode&quot;</span>:<span class="hljs-string">&quot;tag0002&quot;</span>
+       }
+   }
+</code></pre>
+<p>   &#x6A21;&#x677F;&#x6700;&#x540E;&#x8FD4;&#x56DE;&#x4E3B;&#x9898;&#x9700;&#x8981;&#x4E0A;&#x4F20;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#xFF1B;</p>
+<ol>
+<li><p>&#x6A21;&#x677F;&#x7F16;&#x5199;&#x5B8C;&#x6210;&#x4E4B;&#x540E;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x914D;&#x7F6E;&#x5DE5;&#x5177;&#x4E2D;&#x9009;&#x62E9;&#x65B0;&#x5EFA;&#x7684;&#x6A21;&#x677F;&#xFF1B;</p>
+</li>
+<li><p>&#x53EF;&#x4EE5;&#x5148;&#x7528;&#x914D;&#x7F6E;&#x5DE5;&#x5177;&#x201C;PC&#x7AEF;&#x8FD0;&#x884C;&#x5DE5;&#x7A0B;&#x201D;&#x6D4B;&#x8BD5;&#x6A21;&#x677F;&#x80FD;&#x5426;&#x6B63;&#x786E;&#x8FD0;&#x884C;&#xFF1B;</p>
+</li>
+<li><p>&#x9700;&#x8981;&#x4E0B;&#x8F7D;&#x6A21;&#x677F;&#x5230;&#x7F51;&#x5173;&#xFF1A;&#x5728;&#x201C;&#x7CFB;&#x7EDF;&#x8BBE;&#x7F6E;&#x201D;&#x4E2D;&#x9009;&#x62E9;&#x201C;&#x5F00;&#x53D1;&#x8005;&#x6A21;&#x5F0F;&#x201D;&#xFF0C;&#x5BC6;&#x7801;&#x4E3A;&#x201C;luomi&#x201D;&#xFF0C;&#x9009;&#x62E9;&#x201C;&#x4E0B;&#x8F7D;MQTT&#x6A21;&#x677F;&#x201D;&#xFF0C;&#x4E4B;&#x540E;&#x4E0B;&#x8F7D;&#x5DE5;&#x7A0B;&#xFF0C;&#x7F51;&#x5173;&#x5C31;&#x4F1A;&#x6839;&#x636E;&#x65B0;&#x5EFA;&#x7684;&#x6A21;&#x677F;&#x4E0A;&#x4F20;&#x6570;&#x636E;&#x3002;</p>
+<p><img src="assets/&#x4E0B;&#x8F7D;MQTT&#x6A21;&#x677F;.jpg" alt="&#x4E0B;&#x8F7D;MQTT&#x6A21;&#x677F;"></p>
+</li>
+</ol>
 
                                 
                                 </section>
@@ -1591,7 +1770,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"6.1 Mqtt Client","level":"1.8.1","depth":2,"next":{"title":"6.2 IoTDDC","level":"1.8.2","depth":2,"path":"ch6/ch6-2.md","ref":"ch6/ch6-2.md","articles":[]},"previous":{"title":"第六章 IoT","level":"1.8","depth":1,"path":"ch6/README.md","ref":"ch6/README.md","articles":[{"title":"6.1 Mqtt Client","level":"1.8.1","depth":2,"path":"ch6/ch6-1.md","ref":"ch6/ch6-1.md","articles":[]},{"title":"6.2 IoTDDC","level":"1.8.2","depth":2,"path":"ch6/ch6-2.md","ref":"ch6/ch6-2.md","articles":[]},{"title":"6.3 Alink","level":"1.8.3","depth":2,"path":"ch6/ch6-3.md","ref":"ch6/ch6-3.md","articles":[]},{"title":"6.4 Tlink","level":"1.8.4","depth":2,"path":"ch6/ch6-4.md","ref":"ch6/ch6-4.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ch6/ch6-1.md","mtime":"2019-07-24T08:44:49.411Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-27T06:44:38.038Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"6.1 Mqtt Client","level":"1.8.1","depth":2,"next":{"title":"6.2 IoTDDC","level":"1.8.2","depth":2,"path":"ch6/ch6-2.md","ref":"ch6/ch6-2.md","articles":[]},"previous":{"title":"第六章 IoT","level":"1.8","depth":1,"path":"ch6/README.md","ref":"ch6/README.md","articles":[{"title":"6.1 Mqtt Client","level":"1.8.1","depth":2,"path":"ch6/ch6-1.md","ref":"ch6/ch6-1.md","articles":[]},{"title":"6.2 IoTDDC","level":"1.8.2","depth":2,"path":"ch6/ch6-2.md","ref":"ch6/ch6-2.md","articles":[]},{"title":"6.3 Alink","level":"1.8.3","depth":2,"path":"ch6/ch6-3.md","ref":"ch6/ch6-3.md","articles":[]},{"title":"6.4 Tlink","level":"1.8.4","depth":2,"path":"ch6/ch6-4.md","ref":"ch6/ch6-4.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ch6/ch6-1.md","mtime":"2019-11-28T09:15:56.735Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-09T08:07:53.945Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
