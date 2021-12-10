@@ -39,7 +39,7 @@
   - [6.6 网易云（WangYi）](ch6/ch6-6.md)
   - [6.7 Tlink](ch6/ch6-7.md)
   - [6.8 西门子（SIEMENS EnergyIP）](ch6/ch6-8.md)
-  - [6.9 iLink](ch6/ch6-9.md)
+  - [6.9 指令集（iLink）](ch6/ch6-9.md)
 - [第七章 任务计划](ch7/README.md)
 - [第八章 报警与事件](ch8/README.md)
   - [8.1 设置报警条件](ch8/ch8-1.md)
