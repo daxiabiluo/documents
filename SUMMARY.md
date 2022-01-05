@@ -1,7 +1,6 @@
 “bui# Summary”
 * [前言](README.md)
 * [概述](Overview.md)
-* [MQTT推送性能](ch1/gwtest.md)
 * [第一章 工程管理](ch1/README.md)
   - [1.1 新建工程](ch1/ch1-1.md)
   - [1.2 打开工程](ch1/ch1-2.md)
@@ -35,7 +34,7 @@
   - [5.6 OPC XML-DA Server](ch5/ch5-6.md)
 
 - [第六章 IoT](ch6/README.md)
-  - [6.1 MQTT推送性能](ch6/ch6/ch6-1.md)
+  - [6.1 MQTT推送性能](ch6/ch6-1.md)
   - [6.2 Mqtt Client](ch6/ch6-2.md)
   - [6.3 阿里云（Alink）](ch6/ch6-3.md)
   - [6.4 华为云（IoTDDC）](ch6/ch6-4.md)
