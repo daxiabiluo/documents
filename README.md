@@ -4,7 +4,7 @@ Gateway Configuration（简称GC）是黄山罗米测控技术有限公司开发
 
 LMGateway或网关均指的是罗米测控推出的各型号版本的数据采集网关。
 
-## GC能干吗
+## GC能干啥
 
 GC的运行环境为Windows XP及以上操作系统，需要安装.NetFramework 4.0。
 
