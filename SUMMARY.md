@@ -36,7 +36,7 @@
 - [第六章 IoT](ch6/README.md)
   - [6.1 MQTT推送性能](ch6/ch6-1.md)
   - [6.2 Mqtt Client](ch6/ch6-2.md)
-  - [6.3 自定义模板](ch6/ch6-3.md)
+  - [6.3 JS模板自定义JSON格式](ch6/ch6-3.md)
   - [6.4 阿里云（Alink）](ch6/ch6-4.md)
   - [6.5 华为云（IoTDDC）](ch6/ch6-5.md)
   - [6.6 京东云（JD）](ch6/ch6-6.md)
