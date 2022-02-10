@@ -15,8 +15,7 @@
   - [2.5 远程管理网关](ch2/ch2-5.md)
   - [2.6 防火墙](ch2/ch2-6.md)
   - [2.7 调试模式](ch2/ch2-7.md)
-  - [2.8 HTTP接口](ch2/ch2-8.md)
-  - [2.9 WEB服务器](ch2/ch2-9.md)
+  - [2.8 WEB服务器](ch2/ch2-8.md)
 * [第三章 数据采集配置](ch3/README.md)
   * [3.1 通道配置及协议选择](ch3/ch3-1.md)
   * [3.2 设备及点表编辑](ch3/ch3-2.md)
@@ -29,7 +28,7 @@
   - [5.1 Modbus](ch5/ch5-1.md)
   - [5.2 BACnet](ch5/ch5-2.md)
   - [5.3 OPC UA](ch5/ch5-3.md)
-  - [5.4 HTTP](ch5/ch5-4.md)
+  - [5.4 HTTP服务端和客户端](ch5/ch5-4.md)
   - [5.5 远程数据库](ch5/ch5-5.md)
   - [5.6 OPC XML-DA Server](ch5/ch5-6.md)
 
