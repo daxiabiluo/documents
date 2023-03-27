@@ -56,6 +56,7 @@
 - [第七章 任务计划](ch7/README.md)
 - [第八章 报警与事件](ch8/README.md)
   - [8.1 设置报警条件](ch8/ch8-1.md)
+  - [8.2 报警推送到微信](ch8/ch8-2.md)
 - [第九章 JavaScript脚本编辑](ch9/README.md)
   - [9.1 操作步骤](ch9/ch9-1.md)
   - [9.2 函数说明](ch9/ch9-2.md)
