@@ -45,7 +45,7 @@
   - [6.3 MQTT离线存储与续传](ch6/ch6-3.md)
   - [6.4 JS模板自定义JSON格式](ch6/ch6-4.md)
   - [6.5 阿里云（Alink）](ch6/ch6-5.md)
-  - [6.6 华为云（IoTDDC）](ch6/ch6-6.md)
+  - [6.6 华为云（IoTDA）](ch6/ch6-6.md)
   - [6.7 京东云（JD）](ch6/ch6-7.md)
   - [6.8 华润云（HuaRun）](ch6/ch6-8.md)
   - [6.9 网易云（WangYi）](ch6/ch6-9.md)
