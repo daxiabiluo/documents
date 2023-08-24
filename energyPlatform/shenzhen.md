@@ -2,7 +2,7 @@
 
 1. 添加参数
 
-![shenzhen1](E:\markdownFile\documents\energyPlatform\assets\shenzhen1.png)
+![shenzhen1](assets\shenzhen1.png)
 
 按照平台提供的参数，填写相应的文本并保存。
 
@@ -14,7 +14,7 @@
 
 根据实际电表和平台中计量装置的数据采集功能编号，进行电表ID的添加
 
-![shenzhen2](E:\markdownFile\documents\energyPlatform\assets\shenzhen2.png)
+![shenzhen2](assets\shenzhen2.png)
 
 
 
@@ -22,7 +22,7 @@
 
 一般只需要上传电表的正向有功数据项，所以每个电表ID下只需要添加一个数据点
 
-![shenzhen3](E:\markdownFile\documents\energyPlatform\assets\shenzhen3.png)
+![shenzhen3](assets\shenzhen3.png)
 
 高级参数中字段：
 
