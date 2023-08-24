@@ -44,36 +44,58 @@
 
 - [第六章 IoT](ch6/README.md)
   - [6.1 MQTT推送性能](ch6/ch6-1.md)
+  
   - [6.2 Mqtt Client](ch6/ch6-2.md)
+  
   - [6.3 MQTT离线存储与续传](ch6/ch6-3.md)
+  
   - [6.4 JS模板自定义JSON格式](ch6/ch6-4.md)
+  
   - [6.5 阿里云（Alink）](ch6/ch6-5.md)
+  
   - [6.6 华为云（IoTDA）](ch6/ch6-6.md)
+  
   - [6.7 京东云（JD）](ch6/ch6-7.md)
+  
   - [6.8 华润云（HuaRun）](ch6/ch6-8.md)
+  
   - [6.9 网易云（WangYi）](ch6/ch6-9.md)
+  
   - [6.10 Tlink](ch6/ch6-10.md)
+  
   - [6.11 西门子（SIEMENS EnergyIP）](ch6/ch6-11.md)
+  
   - [6.12 指令集（iLink）](ch6/ch6-12.md)
+  
   - [6.13 ThingsBoard](ch6/ch6-13.md)
-- [第七章 任务计划](ch7/README.md)
-- [第八章 报警与事件](ch8/README.md)
-  - [8.1 设置报警条件](ch8/ch8-1.md)
-  - [8.2 报警推送到微信](ch8/ch8-2.md)
-- [第九章 JavaScript脚本编辑](ch9/README.md)
-  - [9.1 操作步骤](ch9/ch9-1.md)
-  - [9.2 函数说明](ch9/ch9-2.md)
-  - [9.3 使用示例](ch9/ch9-3.md)
-  - [9.4 JS脚本自定义采集协议](ch9/ch9-4.md)
-- [第十章 运行工程](ch10/README.md)
-- [第十一章 设备模板](ch11/README.md)
-- [第十二章 应用实例](ch12/README.md)
-  - [12.1 新建工程](ch12/ch12-1.md)
-  - [12.2 新建网关设备](ch12/ch12-2.md)
-  - [12.3 新建通道](ch12/ch12-3.md)
-  - [12.4 新建设备](ch12/ch12-4.md)
-  - [12.5 添加数据点](ch12/ch12-5.md)
-  - [12.6 数据服务](ch12/ch12-6.md)
-  - [12.7 应用工程](ch12/ch12-7.md)
-- [第十三章 附录](ch13/README.md)
+  
+- [第七章 公共能耗平台](energyPlatform/README.md)
+  
+  - [7.1 温州市民用建筑能耗信息管理系统](energyPlatform/wenzhou.md)
+  - [7.2 深圳市建筑能耗监测平台](energyPlatform/shenzhen.md)
+  - [7.3 长沙市建筑能耗监测平台](energyPlatform/changsha.md)
+  - [7.4 成都市公共建筑能耗监测系统](energyPlatform/chengdu.md)
+- [第八章 任务计划](ch7/README.md)
+- [第九章 报警与事件](ch8/README.md)
+  
+  - [9.1 设置报警条件](ch8/ch8-1.md)
+  - [9.2 报警推送到微信](ch8/ch8-2.md)
+- [第10章 JavaScript脚本编辑](ch9/README.md)
+  
+  - [10.1 操作步骤](ch9/ch9-1.md)
+  - [10.2 函数说明](ch9/ch9-2.md)
+  - [10.3 使用示例](ch9/ch9-3.md)
+  - [10.4 JS脚本自定义采集协议](ch9/ch9-4.md)
+- [第十一章 运行工程](ch10/README.md)
+- [第十二章 设备模板](ch11/README.md)
+- [第十三章 应用实例](ch12/README.md)
+  
+  - [13.1 新建工程](ch12/ch12-1.md)
+  - [13.2 新建网关设备](ch12/ch12-2.md)
+  - [13.3 新建通道](ch12/ch12-3.md)
+  - [13.4 新建设备](ch12/ch12-4.md)
+  - [13.5 添加数据点](ch12/ch12-5.md)
+  - [13.6 数据服务](ch12/ch12-6.md)
+  - [13.7 应用工程](ch12/ch12-7.md)
+- [第十四章 附录](ch13/README.md)
 

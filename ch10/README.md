@@ -1,4 +1,4 @@
-# 第十章 运行工程
+# 第十一章 运行工程
 
 **GC运行**
 
@@ -8,4 +8,4 @@
 
 ![10-1 PC模拟运行](assets/10-1 PC模拟运行.png) 
 
-<center>图10-1 PC模拟运行</center>
+<center>PC模拟运行</center>
