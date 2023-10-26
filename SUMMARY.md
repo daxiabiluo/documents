@@ -22,6 +22,7 @@
   - [2.11 串口测试](ch2/ch2-11.md)
   - [2.12 WEB服务器](ch2/ch2-12.md)
   - [2.13 采集驱动更新](ch2/ch2-13.md)
+  - [2.14 路由设置](ch2/ch2-14.md)
 * [第三章 数据采集配置](ch3/README.md)
   * [3.1 网关新建通道数量](ch3/ch3-1.md)
   * [3.2 通道配置及协议选择](ch3/ch3-2.md)
@@ -57,7 +58,7 @@
   - [6.12 指令集（iLink）](ch6/ch6-12.md)
   - [6.13 ThingsBoard](ch6/ch6-13.md)
   - [6.14 Ulink](ch6/ch6-14.md)
-  - [6.14 RootCloud](ch6/ch6-15.md)
+  - [6.15 RootCloud](ch6/ch6-15.md)
   
 - [第七章 公共能耗平台](energyPlatform/README.md)
   
