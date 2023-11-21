@@ -32,6 +32,7 @@
   * [3.6 系统点](ch3/ch3-6.md)
 * [第四章 数据处理](ch4/README.md)
   - [4.1 坏值保持](ch4/ch4-1.md)
+  - [4.2 数据处理](ch4/ch4-2.md)
 * [第五章 数据服务](ch5/README.md)
   - [5.1 Modbus](ch5/ch5-1.md)
   - [5.2 BACnet](ch5/ch5-2.md)
