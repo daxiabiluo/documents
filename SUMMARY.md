@@ -43,6 +43,7 @@
   - [5.7 OPC XML-DA Server](ch5/ch5-7.md)
   - [5.8 kafka客户端](ch5/ch5-8.md)
   - [5.9 环保212客户端](ch5/ch5-9.md)
+  - [5.10 Modbus(多从站ID)](ch5/ch5-10.md)
 
 - [第六章 IoT](ch6/README.md)
   - [6.1 MQTT推送性能](ch6/ch6-1.md)
